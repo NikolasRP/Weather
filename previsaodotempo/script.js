@@ -41,7 +41,7 @@ function showInfo(json){
     document.querySelector('.temperatura').innerHTML=`${json.temp} <sup>°C</sup>`;
     document.querySelector('.ventoInfo').innerHTML=`${json.windSpeed} <span>km/h</span>`;
     document.querySelector('.tempInfo').innerHTML=`${json.descri}`;
-    document.querySelector('.informacoes img').setAttribute('src',`/img/${json.tempIcon}.gif`);
+    document.querySelector('.informacoes img').setAttribute('src',`./img/${json.tempIcon}.gif`);
 
 }
 
