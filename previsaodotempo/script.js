@@ -39,7 +39,7 @@ function showInfo(json){
     document.querySelector('.resultado').style.display='block';
     document.querySelector('.titulo').innerHTML= `${json.name}, ${json.country}`
     document.querySelector('.temperatura').innerHTML=`${json.temp} <sup>°C</sup>`;
-    document.querySelector('.ventoInfo').innerHTML=`${json.speed} <span>km/h</span>`;
+    document.querySelector('.ventoInfo').innerHTML=`${json.windSpeed} <span>km/h</span>`;
     document.querySelector('.tempInfo').innerHTML=`${json.descri}`;
     document.querySelector('.informacoes img').setAttribute('src',`/img/${json.tempIcon}.gif`);
 
@@ -51,7 +51,7 @@ function showWarning(msg){
 
 function clearInfo() {
     showWarning('');
-    document.querySelector('.resultado').styly.display = 'none';
+    document.querySelector('.resultado').style.display = 'none';
 }
 
 async function Curitiba(){
