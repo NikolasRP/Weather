@@ -89,3 +89,6 @@ async function Curitiba(){
 }
         
   Curitiba();
+
+// Não funciona não sei o por que!
+// Professor "Matheus Foltts" me ensinou!
